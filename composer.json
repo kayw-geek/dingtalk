@@ -1,0 +1,29 @@
+{
+    "name": "weikaiii/dingtalk",
+    "description": "dingtalk sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weikaiii",
+            "email": "weikaiii@sina.cn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Weikaiii\\Dingtalk\\":"src/dingtalk/",
+            "Weikaiii\\DingtalkP\\":"src/",
+            "Weikaiii\\DingtalkR\\":"src/request/",
+            "Weikaiii\\DingtalkD\\":"src/domain/",
+            "Weikaiii\\DingtalkT\\":"src/top/",
+            "Weikaiii\\DingtalkTs\\":"src/top/security"
+        },
+        "files": [
+            "packages/weikaiii/dingtalk/src/TopSdk.php"
+        ]
+    }
+}
